@@ -1,0 +1,29 @@
+*{
+    margin: auto;
+    padding: 0;
+}
+body {
+    background-color: black;
+}
+main{
+    text-align: center;
+    padding: 10px;
+}
+button{
+    margin: 10px;
+}
+h2,p {
+    color: white;
+}
+.lampa{
+    width: 150px;
+    height: 180px;
+    flex:  0 0 33%;
+    margin: 5px;
+}
+#palya{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 400px;
+    padding: 30px;
+}
